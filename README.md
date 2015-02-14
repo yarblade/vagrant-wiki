@@ -4,6 +4,8 @@
 
 [как изменять конфигурацию] (https://drive.draw.io/?#G0B2HYM9B-AFTrWVdaYTMzRjNyNjA)
 
+А как у других? [Rails] (https://github.com/rails/rails-dev-box)
+
 
 # Установка
 - (если в BIOS есть галка hardware virtualization technology (VT-x) то ее нужно включить)
