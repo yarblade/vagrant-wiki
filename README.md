@@ -26,12 +26,12 @@ vagrant init base
 Для начала нужно запустить консоль
 
 запуск VM
-- vagrant up
+- `vagrant up`
 
 остановить VM
-- vagrant suspend
+- `vagrant suspend`
 
 ssh
- - vagrant ssh
+ - `vagrant ssh`
 
 
