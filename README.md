@@ -17,8 +17,10 @@
 - Создать пустую папку для работы с box-ом и открыть ее 
 - В папке создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
 - Запустить консоль
-- Ввести vagrant add box base \\%общая папка%\base.box
-- Ввести vagrant init base
+``` 
+vagrant add box base \\%общая папка%\base.box
+vagrant init base
+```
 
 # Работа с VM
 Для начала нужно запустить консоль
