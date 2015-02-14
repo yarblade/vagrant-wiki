@@ -6,6 +6,7 @@
 
 
 # Установка
+ (если в BIOS есть галка hardware virtualization technology (VT-x) то ее нужно включить)
 - VirtualBox
 - Git
 - Vagrant
