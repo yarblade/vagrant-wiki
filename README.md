@@ -2,7 +2,7 @@
 
 [что умеет vagrant] (https://drive.draw.io/?#G0B2HYM9B-AFTrWVdaYTMzRjNyNjA)
 
-[как готовть vagrant box] (https://drive.draw.io/?#G0B2HYM9B-AFTrWVdaYTMzRjNyNjA)
+[как изменять конфигурацию] (https://drive.draw.io/?#G0B2HYM9B-AFTrWVdaYTMzRjNyNjA)
 
 
 # Установка
