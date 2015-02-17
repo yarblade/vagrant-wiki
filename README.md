@@ -35,7 +35,7 @@ vagrant up
 ```
 
 - В папке VM создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
-- Запустить консоль
+- Выполните в консоли (чтобы вставить в консоль из буфера обмена используем Shift+Insert)
 ``` 
 vagrant box add base //ofc-cls/fs/Common/vagrant/base.box -f
 vagrant init base -m
