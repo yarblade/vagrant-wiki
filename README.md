@@ -16,6 +16,15 @@
 # Настройка новой VM
 - Создать пустую папку для работы с box-ом и открыть ее 
 - В папке создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
+- Скопируйте в папку каталог sql\sphinx из проекта
+- Создайте файлик update.sh и впишите туда путь до проекта
+```
+cp {Путь до проекта}/sql/sphinx/sphinx.conf ./sphinx
+cd sphinx 
+SphinxConfigGenerator.exe sphinx.conf sphinx_config.ini sprint
+vagrant destroy
+vagrant up
+```
 - Запустить консоль
 ``` 
 vagrant box add base //ofc-cls/fs/Common/vagrant/base.box -f
@@ -35,10 +44,7 @@ ssh
  - `vagrant ssh`
  
 перестройка VM
-
-
- - `vagrant destroy`
- - `vagrant up`
+- sh update.sh (либо кликнуть по файлику в проводнике)
  
 
 
