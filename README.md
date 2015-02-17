@@ -9,9 +9,9 @@
 
 # Установка
 - (если в BIOS есть галка hardware virtualization technology (VT-x) то ее нужно включить)
-- VirtualBox
-- Git
-- Vagrant
+- [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
+- [Git] (http://git-scm.com/downloads)
+- [Vagrant] (https://www.vagrantup.com/)
 
 # Настройка новой VM
 - Создать пустую папку для работы с box-ом и открыть ее 
