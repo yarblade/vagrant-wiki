@@ -22,7 +22,7 @@ cp {Путь до проекта}/sql/sphinx/sphinx.conf ./sphinx
 cd sphinx 
 SphinxConfigGenerator.exe sphinx.conf sphinx_config.ini sprint
 cp sphinx_sp.conf ../sphinx.conf
-vagrant destroy
+vagrant destroy -f
 vagrant up
 ```
   впишите туда путь до проекта
