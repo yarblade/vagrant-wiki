@@ -19,7 +19,7 @@
 - Запустить консоль
 ``` 
 vagrant box add base //ofc-cls/fs/Common/vagrant/base.box -f
-vagrant init base
+vagrant init base -m
 ```
 
 # Работа с VM
