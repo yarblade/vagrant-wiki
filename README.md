@@ -16,7 +16,7 @@
 # Настройка новой VM
 - Создать пустую папку для работы с box-ом(папка VM)
 - Скопируйте в папку VM каталог sql\sphinx из проекта
-- Создайте файлик update.sh и впишите туда путь до проекта
+- Создайте файлик update.sh содержаший следующий скрипт
 ```
 cp {Путь до проекта}/sql/sphinx/sphinx.conf ./sphinx
 cd sphinx 
@@ -25,6 +25,7 @@ cp sphinx_sp.conf ../sphinx.conf
 vagrant destroy
 vagrant up
 ```
+  впишите туда путь до проекта
 - Откройте файл /sphinx/sphinx_config.ini в блоке [sprint] пропишите новые значения
 ```
  dbServer = 4.4.4.1
