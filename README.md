@@ -33,5 +33,10 @@ vagrant init base
 
 ssh
  - `vagrant ssh`
+ 
+перестройка VM
+ - `vagrant destroy`
+ - `vagrant up`
+ 
 
 
