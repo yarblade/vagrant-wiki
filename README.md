@@ -26,10 +26,10 @@ vagrant destroy
 vagrant up
 ```
 - Откройте файл /sphinx/sphinx_config.ini в блоке [sprint] пропишите новые значения
-- dbServer = 4.4.4.1
-- dbPort = порт бд (например 3306)
-- dbName = название базы (например job)
-- pid_file = /var/run/sphinxsearch/searchjob.pid
+ dbServer = 4.4.4.1
+ dbPort = порт бд (например 3306)
+ dbName = название базы (например job)
+ pid_file = /var/run/sphinxsearch/searchjob.pid
 
 - В папке VM создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
 - Запустить консоль
