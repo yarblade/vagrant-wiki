@@ -18,7 +18,7 @@
 - В папке создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
 - Запустить консоль
 ``` 
-vagrant add box base \\ofc-cls\fs\Common\vagrant\base.box
+vagrant box add base //ofc-cls/fs/Common/vagrant/base.box
 vagrant init base
 ```
 
@@ -35,6 +35,8 @@ ssh
  - `vagrant ssh`
  
 перестройка VM
+
+
  - `vagrant destroy`
  - `vagrant up`
  
