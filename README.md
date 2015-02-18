@@ -5,31 +5,13 @@
 - [Vagrant] (https://www.vagrantup.com/)
 
 # Настройка новой VM
-- Создать пустую папку для работы с box-ом(папка VM)
-- Скопируйте в папку VM каталог sql\sphinx из проекта
-- Создайте файлик update.sh содержаший следующий скрипт
-```
-cp {Путь до проекта}/sql/sphinx/sphinx.conf ./sphinx
-cd sphinx 
-SphinxConfigGenerator.exe sphinx.conf sphinx_config.ini sprint
-cp sphinx_sp.conf ../sphinx.conf
-vagrant destroy -f
-vagrant up
-```
-  впишите туда путь до проекта
-- Откройте файл /sphinx/sphinx_config.ini в блоке [sprint] пропишите новые значения
-```
- dbServer = 4.4.4.1
- dbPort = порт бд (например 3306)
- dbName = название базы (например job)
- pid_file = /var/run/sphinxsearch/searchjob.pid
-```
-
-- В папке VM создать ярлык для консоли "C:\Program Files (x86)\Git\bin\sh.exe" --login -i
+- Скопируйте папку \ofc-cls\fs\Common\vagrant\VM\ к себе.
+- В файлике reinstall.sh поправьте CONF_PATH(путь до конфига sphinx в формате linix т.е. меняем \ на /).
+- Запустите ярлычок bash 
 - Выполните в консоли (чтобы вставить в консоль из буфера обмена используем Shift+Insert)
 ``` 
 vagrant box add base //ofc-cls/fs/Common/vagrant/base.box -f
-vagrant init base -m
+sh update.sh
 ```
 
 # Работа с VM
@@ -45,7 +27,7 @@ ssh
  - `vagrant ssh`
  
 перестройка VM
-- sh update.sh (либо кликнуть по файлику в проводнике)
+- кликнуть по файлику update.sh в проводнике или sh update.sh в консоли
  
 
 
